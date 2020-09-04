@@ -46,6 +46,7 @@
                     max-width="720"
                 >
                     <h3>O que é CNPJ ?</h3>
+                    <p>
                     CNPJ - Cadastro Nacional da Pessoa Jurídica - 
                     é um número que identifica uma empresa junto a Receita Federal do Brasil.
                     É uma identificação única da empresa no Brasil. <br>
@@ -55,7 +56,7 @@
                     Mais informações, consulte: <br>
                     <a href="http://receita.economia.gov.br/orientacao/tributaria/cadastros/cadastro-nacional-de-pessoas-juridicas-cnpj" 
                        target="_blank"> Receita Federal - Ministério da Economia</a>
-                    
+                    </p>
 
                 </v-responsive>  
             </v-container>
@@ -202,5 +203,8 @@ export default {
 </script>
 
 <style>
-
+    p{
+        font-size: 15px;
+        color: dimgray
+    }
 </style>

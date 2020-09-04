@@ -46,16 +46,17 @@
                     max-width="720"
                 >
                     <h3>O que é CPF ?</h3>
-                    CPF - Cadastro de Pessoa Física - 
-                    é um número que identifica uma pessoa junto a Receita Federal do Brasil.
-                    É uma identificação única da pessoa para o Brasil. <br>
-                    Vale ressaltar que a validação é realizada de acordo com o algoritmo do CPF
-                     o que significa que um número válido não necessariamente é um número existente e 
-                     com situação cadastral regular perante a Receita Federal. <br>
-                    Mais informações, consulte: <br>
-                    <a href="http://receita.economia.gov.br/contato/fale-conosco/cidadao/cpf" 
-                       target="_blank"> Receita Federal - Ministério da Economia</a>
-                    
+                    <p>
+                        CPF - Cadastro de Pessoa Física - 
+                        é um número que identifica uma pessoa junto a Receita Federal do Brasil.
+                        É uma identificação única da pessoa física para o Brasil. <br>
+                        Vale ressaltar que a validação é realizada de acordo com o algoritmo do CPF
+                        o que significa que um número válido não necessariamente é um número existente e 
+                        com situação cadastral regular perante a Receita Federal. <br>
+                        Mais informações, consulte: <br>
+                        <a href="http://receita.economia.gov.br/contato/fale-conosco/cidadao/cpf" 
+                        target="_blank"> Receita Federal - Ministério da Economia</a>
+                    </p>
 
                 </v-responsive>  
             </v-container>
@@ -188,5 +189,8 @@ export default {
 </script>
 
 <style>
-
+    p{
+        font-size: 15px;
+        color: dimgray
+    }
 </style>
